@@ -18,6 +18,11 @@
 | [序章：投资不是下注，是经营](manuscript/00-prologue.md) | 建立全书的经营视角 |
 | [第四章：融资不是工具，是租金](manuscript/04-financing-is-rent.md) | 解释融资如何出售等待权 |
 
+## 项目说明
+
+- [开源发布说明](launch/open-source-announcement.md)
+- [视觉识别说明](../assets/brand/README.md)
+
 ## 推荐路径
 
 - 想快速理解方法：序章 → 词典 → 模型图谱

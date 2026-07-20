@@ -1,3 +1,5 @@
+![投资经营学：像经营一家餐馆一样思考股票](assets/brand/hero-v1.jpg)
+
 # 投资经营学
 
 > 让复杂的投资问题，可以用普通人的经营直觉来思考。
@@ -27,6 +29,8 @@
 6. [思想体系总图](docs/editorial/system-map.md)
 
 完整导航见 [docs/README.md](docs/README.md)。
+
+关于这个项目为什么开放，见 [《把金融还原为生活：我把〈投资经营学〉开源了》](docs/launch/open-source-announcement.md)。
 
 ## 当前公开内容
 

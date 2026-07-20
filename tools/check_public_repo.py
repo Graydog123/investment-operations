@@ -13,6 +13,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 FORBIDDEN_SUFFIXES = {".docx", ".pdf", ".xlsx", ".xls", ".csv", ".png", ".jpg", ".jpeg"}
 FORBIDDEN_PATH_PARTS = {"sources", "private", "account", "accounts", "holdings", "screenshots"}
+ALLOWED_BINARY_ASSETS = {
+    Path("assets/brand/hero-v1.jpg"),
+    Path("assets/brand/social-preview-v1.jpg"),
+}
 FORBIDDEN_TEXT: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("本机绝对路径", re.compile(r"/(?:Users|home|mnt)/[^\s)]+")),
     ("临时下载链接", re.compile(r"(?:sandbox:|file://|chatgpt-conversation://)")),
@@ -21,7 +25,7 @@ FORBIDDEN_TEXT: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("私人对话重建", re.compile(r"(?:用户口述事实|用户在对话中|对话重建|复原个人财富)")),
 )
 
-TEXT_SUFFIXES = {".md", ".txt", ".py", ".yml", ".yaml", ".cff", ""}
+TEXT_SUFFIXES = {".md", ".txt", ".py", ".swift", ".svg", ".yml", ".yaml", ".cff", ""}
 
 
 def main() -> int:
@@ -37,7 +41,7 @@ def main() -> int:
         lowered_parts = {part.lower() for part in relative.parts}
         if lowered_parts & FORBIDDEN_PATH_PARTS:
             failures.append(f"禁止公开的目录：{relative}")
-        if path.suffix.lower() in FORBIDDEN_SUFFIXES:
+        if path.suffix.lower() in FORBIDDEN_SUFFIXES and relative not in ALLOWED_BINARY_ASSETS:
             failures.append(f"禁止公开的文件类型：{relative}")
 
         if path.suffix.lower() not in TEXT_SUFFIXES:
