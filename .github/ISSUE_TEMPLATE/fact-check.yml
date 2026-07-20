@@ -1,0 +1,28 @@
+name: 事实核验
+description: 修正来源、数字、日期或事实表述
+title: "[事实核验] "
+labels: ["fact-check"]
+body:
+  - type: textarea
+    attributes:
+      label: 当前表述与位置
+      description: 请给出文件路径、标题和需要核验的表述。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 原始来源
+      description: 优先提供公司公告、监管文件、财报、论文等原始链接。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 建议修改
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我没有提交真实持仓、账户截图、成交或身份资料。
+          required: true

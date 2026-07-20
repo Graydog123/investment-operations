@@ -1,0 +1,16 @@
+name: Public safety check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  safety-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for private materials and local paths
+        run: python3 tools/check_public_repo.py

@@ -1,0 +1,28 @@
+name: 命题反例
+description: 提交可能挑战术语、命题或模型的公开案例
+title: "[反例] "
+labels: ["counterexample"]
+body:
+  - type: input
+    attributes:
+      label: 被挑战的术语、命题或模型
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 反例及来源
+      description: 请把事实、判断和未验证部分分开，并附原始资料链接。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 它可能改变什么
+      description: 说明应修改适用条件、失效边界、评级还是命题本身。
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我没有提交真实持仓、账户截图、成交或身份资料。
+          required: true

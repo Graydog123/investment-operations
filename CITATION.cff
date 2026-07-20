@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "如果本项目对你的研究或写作有帮助，请引用本项目。"
+title: "投资经营学"
+type: book
+authors:
+  - family-names: "鬼谷子"
+version: 0.1.0
+date-released: 2026-07-20
+repository-code: "https://github.com/graydog123/investment-operations"
+url: "https://github.com/graydog123/investment-operations"
+license: CC-BY-NC-SA-4.0
+abstract: "一套把专业金融概念还原为普通人生活与经营经验的投资思想体系。"
