@@ -27,11 +27,13 @@
 4. [第十四章：先保住店](docs/manuscript/14-keep-the-shop-open.md)
 5. [第十八章：好菜也怕买贵](docs/manuscript/18-good-dish-can-be-overpriced.md)
 6. [第二十章：现金不是空仓，是选择权](docs/manuscript/20-cash-is-optionality.md)
-7. [《投资经营学词典》](docs/framework/01-investment-operations-dictionary.md)
-8. [《投资翻译词典》](docs/framework/02-finance-translation-dictionary.md)
-9. [《第一性命题》](docs/framework/03-first-principles.md)
-10. [《模型图谱》](docs/framework/04-model-atlas.md)
-11. [思想体系总图](docs/editorial/system-map.md)
+7. [第二十四章：把投资变成一门可以重复的生意](docs/manuscript/24-make-investing-repeatable.md)
+8. [结语：店要一直开下去](docs/manuscript/25-epilogue-keep-the-shop-open.md)
+9. [《投资经营学词典》](docs/framework/01-investment-operations-dictionary.md)
+10. [《投资翻译词典》](docs/framework/02-finance-translation-dictionary.md)
+11. [《第一性命题》](docs/framework/03-first-principles.md)
+12. [《模型图谱》](docs/framework/04-model-atlas.md)
+13. [思想体系总图](docs/editorial/system-map.md)
 
 完整导航见 [docs/README.md](docs/README.md)。
 
@@ -44,7 +46,7 @@
 - 可验证、可行动、可复述的第一性命题
 - 投资经营模型及使用边界
 - 经过去隐私处理的公开案例验证库
-- 序章至第二十章正文重构稿
+- 序章、二十四章正文与结语的完整重构稿
 
 ## 明确不公开的内容
 
