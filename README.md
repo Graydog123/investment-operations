@@ -24,11 +24,12 @@
 1. [序章：投资不是下注，是经营](docs/manuscript/00-prologue.md)
 2. [第四章：融资不是工具，是租金](docs/manuscript/04-financing-is-rent.md)
 3. [第九章：仓位不是态度，是经营规模](docs/manuscript/09-position-is-operating-scale.md)
-4. [《投资经营学词典》](docs/framework/01-investment-operations-dictionary.md)
-5. [《投资翻译词典》](docs/framework/02-finance-translation-dictionary.md)
-6. [《第一性命题》](docs/framework/03-first-principles.md)
-7. [《模型图谱》](docs/framework/04-model-atlas.md)
-8. [思想体系总图](docs/editorial/system-map.md)
+4. [第十四章：先保住店](docs/manuscript/14-keep-the-shop-open.md)
+5. [《投资经营学词典》](docs/framework/01-investment-operations-dictionary.md)
+6. [《投资翻译词典》](docs/framework/02-finance-translation-dictionary.md)
+7. [《第一性命题》](docs/framework/03-first-principles.md)
+8. [《模型图谱》](docs/framework/04-model-atlas.md)
+9. [思想体系总图](docs/editorial/system-map.md)
 
 完整导航见 [docs/README.md](docs/README.md)。
 
@@ -41,7 +42,7 @@
 - 可验证、可行动、可复述的第一性命题
 - 投资经营模型及使用边界
 - 经过去隐私处理的公开案例验证库
-- 序章、第四章与第九章重构样章
+- 序章至第十四章正文重构稿
 
 ## 明确不公开的内容
 
