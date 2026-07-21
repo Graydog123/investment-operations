@@ -27,6 +27,10 @@
 | [第二章：股价是客流，成交量是翻台](manuscript/02-price-is-traffic-volume-is-turnover.md) | 用方向、活跃、位置与承接诊断量价 |
 | [第三章：库存会腐败，仓位不是静态资产](manuscript/03-inventory-decays.md) | 审计交易身份、理由保质期与库存腐败 |
 | [第四章：融资不是工具，是租金](manuscript/04-financing-is-rent.md) | 解释融资如何出售等待权 |
+| [第五章：主线有生命周期](manuscript/05-mainlines-have-lifecycles.md) | 用产业、利润与资金三重共振识别主线阶段 |
+| [第六章：买了很多股票，不等于开了很多种店](manuscript/06-many-stocks-not-many-businesses.md) | 按错误来源而非代码数量审计组合 |
+| [第七章：菜单要变，招牌不能丢](manuscript/07-change-menu-keep-signature.md) | 区分稳定的决策次序与可变的具体资产 |
+| [第八章：先懂菜，才能看懂生意](manuscript/08-understand-the-dish.md) | 用决定性变量和证据阶梯研究产业与公司 |
 | [第九章：仓位不是态度，是经营规模](manuscript/09-position-is-operating-scale.md) | 用错误预算和证据升级反推仓位 |
 
 ## 项目说明
@@ -37,6 +41,8 @@
 ## 推荐路径
 
 - 想连续阅读第一部：序章 → 第一章 → 第二章 → 第三章 → 第四章
+- 想连续阅读第二部：第五章 → 第六章 → 第七章 → 第八章
+- 想从市场进入公司研究：第五章 → 第六章 → 第七章 → 第八章 → 第九章
 - 想快速理解账户经营：序章 → 第四章 → 第九章 → 模型图谱
 - 想理解专业概念：投资翻译词典 → 第一性命题
 - 想检查证据：案例验证库 → 对应模型和样章
